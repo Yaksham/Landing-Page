@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+* {
+  font-family: Roboto, sans-serif !important;
+}
+
+.header, .content {
+  display: flex;
+  background-color: #1f2937;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 20px 15%;
+  align-items: center;
+}
+
+.logo, .title {
+  color: #f9faf8;
+}
+
+a, .subtitle, button {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  width: 30vw;
+}
+
+.left > * {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.landscape {
+  width: 30vw;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  margin-left: auto;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #3882f6;
+  width: max-content;
+  font-weight: 700;
+  padding: 2px 30px;
+  border: 0;
+  border-radius: 7px;
+}
+
+/*# sourceMappingURL=style.css.map */
